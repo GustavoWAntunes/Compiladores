@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="compilador">
+  <grid id="27dc6" binding="contentPane" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1076" height="573"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <foreground color="-16777216"/>
+      <preferredSize width="1500" height="800"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="9bc6f" class="javax.swing.JLabel" binding="south">
+        <constraints border-constraint="South"/>
+        <properties>
+          <preferredSize width="145" height="25"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <toolbar id="b2d25" binding="north">
+        <constraints border-constraint="North"/>
+        <properties>
+          <preferredSize width="921" height="70"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="5865e" class="javax.swing.JButton" binding="btn_novo">
+            <constraints/>
+            <properties>
+              <label value="novo [ctrl-n]"/>
+              <text value="novo [ctrl-n]"/>
+            </properties>
+          </component>
+          <component id="ac0d8" class="javax.swing.JButton" binding="btn_abrir">
+            <constraints/>
+            <properties>
+              <text value="abrir [ctrl-o]"/>
+            </properties>
+          </component>
+          <component id="198ea" class="javax.swing.JButton" binding="btn_salvar">
+            <constraints/>
+            <properties>
+              <text value="salvar [ctrl-s]"/>
+            </properties>
+          </component>
+          <component id="d8ac3" class="javax.swing.JButton" binding="btn_copiar">
+            <constraints/>
+            <properties>
+              <text value="copiar [ctrl-c]"/>
+            </properties>
+          </component>
+          <component id="facb7" class="javax.swing.JButton" binding="btn_colar">
+            <constraints/>
+            <properties>
+              <text value="colar [ctrl-v]"/>
+            </properties>
+          </component>
+          <component id="9a2a7" class="javax.swing.JButton" binding="btn_recortar">
+            <constraints/>
+            <properties>
+              <text value="recortar [ctrl-x]"/>
+            </properties>
+          </component>
+          <component id="df785" class="javax.swing.JButton" binding="btn_compilar">
+            <constraints/>
+            <properties>
+              <text value="compilar [F7]"/>
+            </properties>
+          </component>
+          <component id="d089d" class="javax.swing.JButton" binding="btn_equipe">
+            <constraints/>
+            <properties>
+              <text value="equipe [F1]"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <splitpane id="b7683" binding="center">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <dividerLocation value="468"/>
+          <orientation value="0"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="22ae7">
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties>
+              <horizontalScrollBarPolicy value="32"/>
+              <verticalScrollBarPolicy value="22"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="39d1d" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+          <scrollpane id="e21a2">
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties>
+              <horizontalScrollBarPolicy value="32"/>
+              <verticalScrollBarPolicy value="22"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="1c0b0" class="javax.swing.JTextArea" binding="textArea2" default-binding="true">
+                <constraints/>
+                <properties>
+                  <editable value="false"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </splitpane>
+    </children>
+  </grid>
+</form>
